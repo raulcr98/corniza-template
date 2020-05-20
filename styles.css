@@ -1,0 +1,165 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: url('traf-sL7w1eUfHJQ-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Pacifico', cursive;
+    font-size: 128px;
+    text-align: center
+}
+
+.title-2{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+.announces .row > div{
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social {
+    text-align: center
+}
+.social svg {
+    width: 2em;
+    margin: 5px;
+}
+
+.nav-item {
+    border-bottom: 2px solid transparent;
+    transition: .1s ease all;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid white;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
+.bg-gradient-1 {
+    background: #7f7fd5;
+    background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.bg-gradient-2 {
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #654ea3, #eaafc8);
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+
+.bg-gradient-3 {
+    background: #ff416c;
+    background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b);
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.bg-gradient-4 {
+    background: #007991;
+    background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+    background: linear-gradient(to right, #007991, #78ffd6);
+}
+
+.btn-demo {
+    padding: 0.5rem 2rem !important;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+.btn-demo:hover, .btn-demo:focus {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    background: #212529;
+    z-index: 10000;
+    padding: .8em;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline
+}
+
+#events {
+}
+
+.form {
+    padding: 1em;
+}
+
+.color {
+    background: #ff4b2b;
+    color: white
+}
